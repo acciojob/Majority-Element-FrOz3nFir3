@@ -7,7 +7,7 @@ function major(arr){
   for(let num of arr){
           if(num in countHt){
                   countHt[num] += 1;
-                  if(countHt[num] > optimized) return num;
+                  if(countHt[num] > floorNum) return num;
           }else{
                   countHt[num] = 1;
           }
